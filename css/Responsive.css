@@ -1,0 +1,844 @@
+/*------------------------------------------ ex device css  */
+@media (min-width: 300px) and (max-width: 575.98px) {
+  /* nav  */
+  .navbar-nav {
+    width: 100%;
+    height: 38vh;
+    background: #203239;
+    text-align: center;
+    border-radius: 3px;
+  }
+
+  .nav-item {
+    display: block;
+    margin: 5px 0;
+    line-height: 30px;
+    color: #eeeddecb;
+  }
+  .nav-item:hover {
+    background: #eeeddecb !important;
+  }
+  .navbar .nav-item .nav-link {
+    font-size: 20px;
+    margin: 0 auto;
+    color: #eeeddecb;
+    padding: 15px 0;
+  }
+  .navbar .nav-item:hover .nav-link {
+    color: #203239;
+    font-weight: 600;
+  }
+  /* nav  */
+  .navbar-toggler {
+    border: 0;
+  }
+  .navbar-toggler:focus {
+    box-shadow: none;
+    border: 0;
+  }
+  #banner .text h2 {
+    font-size: 30px;
+    line-height: 140%;
+    width: auto;
+    text-align: center;
+  }
+
+  #banner .text p {
+    font-size: 16px;
+    line-height: 30px;
+    width: auto;
+    margin: 18px 0 150px;
+    text-align: center;
+    padding: 0 5px;
+  }
+  #banner .search input {
+    display: none;
+  }
+  #banner .search i {
+    display: none;
+  }
+  #banner .search .btn {
+    display: none;
+  }
+  .banner-img img {
+    bottom: 400px;
+    opacity: 0.1;
+    display: block;
+  }
+  #banner .counter .text h2 {
+    font-size: 40px;
+  }
+  #banner .counter .text p {
+    font-size: 16px;
+    line-height: 35px;
+    width: auto;
+    padding-bottom: 35px;
+  }
+  #property {
+    padding: 50px 0px;
+  }
+
+  #property .title h2 {
+    font-size: 21px;
+    line-height: 144%;
+    width: auto;
+    text-align: center;
+    padding: 20px 0 35px;
+  }
+  #property .property-list {
+    margin-top: 0;
+  }
+  #property .property-list .card-1 {
+    width: auto;
+    height: 240px;
+    margin-bottom: 35px;
+  }
+  #property .property-list .card-1 .extra-mm {
+    margin-bottom: 17px;
+  }
+  #property .property-list .card-1 p {
+    font-size: 16px;
+    line-height: 27px;
+    margin: 5px 0 20px;
+    width: auto;
+  }
+  #property {
+    padding-bottom: 10px;
+  }
+  .title {
+    margin: 45px 0;
+  }
+  .title h2 {
+    font-size: 32px;
+    line-height: 80%;
+  }
+  .title h3 {
+    font-size: 17px;
+    line-height: 23px;
+    margin-bottom: 13px;
+  }
+  .positon-img {
+    display: none;
+  }
+  #Residen {
+    height: 460px;
+  }
+  #Residen .text h2 {
+    font-size: 21px;
+    line-height: 150%;
+    width: auto;
+    margin-top: -40px;
+  }
+  #Residen .text p {
+    font-size: 16px;
+    line-height: 28px;
+    margin: 0px 0 30px;
+  }
+  #Residen .text .btn-3 a {
+    font-size: 16px;
+    line-height: 20px;
+    padding: 11px 30px;
+    border-radius: 10px;
+    margin-right: 2px;
+  }
+  #Residen .text .n-btn {
+    display: none;
+  }
+
+  #R-Berbagai .cards .r-card {
+    padding-bottom: 35px;
+  }
+  #R-Berbagai .cards .r-card img {
+    width: 100%;
+  }
+  #R-Berbagai .cards .r-card h2 {
+    font-size: 21px;
+    line-height: 150%;
+    margin: 13px 0 5px;
+    text-align: center;
+  }
+  #R-Berbagai .cards .r-card p {
+    font-size: 16px;
+    line-height: 28px;
+    color: #203239;
+    width: auto;
+    text-align: center;
+  }
+  .center-card {
+    text-align: center;
+  }
+  #kami {
+    padding: 25px;
+  }
+  #kami .contact {
+    width: 100%;
+  }
+  #kami .contact h2 {
+    font-size: 28px;
+
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  #kami .contact .card-3 {
+    padding: 20px;
+    border: 1px solid rgba(255, 117, 39, 0.5);
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 15px;
+    margin-right: 0;
+  }
+  #kami .contact .i-text a {
+    font-size: 12px;
+  }
+  #kami .contact .card-3 .btn {
+    font-size: 16px;
+    padding: 8px 40px;
+  }
+  #kami .contact .i-text h3 {
+    margin: 0;
+  }
+  #kami .contact .i-text {
+    margin-bottom: 20px;
+  }
+  #kami .contact h2 {
+    margin: 40px 40px;
+  }
+  #kami .main {
+    display: none;
+  }
+  #footer {
+    background: #203239;
+    padding: 0 15px;
+  }
+  #footer .foot img {
+    padding: 8px 0;
+  }
+  #footer .foot i {
+    font-size: 16px;
+    margin-left: 25px;
+  }
+  /* end  */
+}
+/*----------------------------------------- sm device css */
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* nav  */
+  .navbar-nav {
+    width: 100%;
+    height: 38vh;
+    background: #203239;
+    text-align: center;
+    border-radius: 3px;
+  }
+
+  .nav-item {
+    display: block;
+    margin: 10px 0;
+    line-height: 30px;
+    color: #eeeddecb;
+  }
+  .nav-item:hover {
+    background: #eeeddecb;
+  }
+  .navbar .nav-item .nav-link {
+    font-size: 20px;
+    margin: 0 auto;
+    color: #eeeddecb;
+    padding: 15px 0;
+  }
+  .navbar .nav-item:hover .nav-link {
+    color: #203239;
+    font-weight: 600;
+  }
+  /* nav  */
+  .navbar-toggler {
+    border: 0;
+  }
+  .navbar-toggler:focus {
+    box-shadow: none;
+    border: 0;
+  }
+  #banner .text h2 {
+    font-size: 30px;
+    line-height: 140%;
+    width: auto;
+    text-align: center;
+    padding-top: 240px;
+  }
+
+  #banner .text p {
+    font-size: 16px;
+    line-height: 30px;
+    width: auto;
+    margin: 18px 0 150px;
+    text-align: center;
+    padding: 0 5px;
+  }
+  #banner .search input {
+    display: none;
+  }
+  #banner .search i {
+    display: none;
+  }
+  #banner .search .btn {
+    display: none;
+  }
+  .banner-img img {
+    bottom: 400px;
+    opacity: 0.1;
+    display: block;
+  }
+  #banner .counter .text h2 {
+    font-size: 40px;
+  }
+  #banner .counter .text p {
+    font-size: 16px;
+    line-height: 35px;
+    width: auto;
+    padding-bottom: 35px;
+  }
+  #property {
+    padding: 50px 0px;
+  }
+
+  #property .title h2 {
+    font-size: 21px;
+    line-height: 144%;
+    width: auto;
+    text-align: center;
+    padding: 20px 0 35px;
+  }
+  #property .property-list {
+    margin-top: 0;
+  }
+  #property .property-list .card-1 {
+    width: auto;
+    height: 240px;
+    margin-bottom: 35px;
+  }
+  #property .property-list .card-1 h5 {
+    left: 425px;
+  }
+  #property .property-list .card-1 .extra-mm {
+    margin-bottom: 17px;
+  }
+  #property .property-list .card-1 p {
+    font-size: 16px;
+    line-height: 27px;
+    margin: 5px 0 20px;
+    width: auto;
+  }
+  #property {
+    padding-bottom: 10px;
+  }
+  .title {
+    margin: 45px 0;
+  }
+  .title h2 {
+    font-size: 32px;
+    line-height: 80%;
+  }
+  .title h3 {
+    font-size: 17px;
+    line-height: 23px;
+    margin-bottom: 13px;
+  }
+  .positon-img {
+    display: none;
+  }
+  #Residen {
+    height: 460px;
+  }
+  #Residen .text h2 {
+    font-size: 21px;
+    line-height: 150%;
+    width: auto;
+    margin-top: -40px;
+  }
+  #Residen .text p {
+    font-size: 16px;
+    line-height: 28px;
+    margin: 0px 0 30px;
+  }
+  #Residen .text .btn-3 a {
+    font-size: 16px;
+    line-height: 20px;
+    padding: 11px 30px;
+    border-radius: 10px;
+    margin-right: 15px;
+  }
+
+  #R-Berbagai .cards .r-card {
+    padding-bottom: 35px;
+  }
+  #R-Berbagai .cards .r-card img {
+    width: 100%;
+  }
+  #R-Berbagai .cards .r-card h2 {
+    font-size: 21px;
+    line-height: 150%;
+    margin: 13px 0 5px;
+    text-align: center;
+  }
+  #R-Berbagai .cards .r-card p {
+    font-size: 16px;
+    line-height: 28px;
+    color: #203239;
+    width: auto;
+    text-align: center;
+  }
+  .center-card {
+    text-align: center;
+  }
+  #kami {
+    padding: 25px;
+  }
+  #kami .contact {
+    width: 100%;
+  }
+  #kami .contact h2 {
+    font-size: 28px;
+
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  #kami .contact .card-3 {
+    padding: 20px;
+    border: 1px solid rgba(255, 117, 39, 0.5);
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 15px;
+    margin-right: 0;
+  }
+  #kami .contact .i-text a {
+    font-size: 12px;
+  }
+  #kami .contact .card-3 .btn {
+    font-size: 16px;
+    padding: 8px 40px;
+  }
+  #kami .contact .i-text h3 {
+    margin: 0;
+  }
+  #kami .contact .i-text {
+    margin-bottom: 20px;
+  }
+  #kami .contact h2 {
+    margin: 40px 40px;
+  }
+  #kami .main {
+    display: none;
+  }
+  #footer {
+    background: #203239;
+    padding: 0 15px;
+  }
+  #footer .foot img {
+    padding: 8px 0;
+  }
+  #footer .foot i {
+    font-size: 16px;
+    margin-left: 25px;
+  }
+  /* end  */
+}
+/*----------------------------------------------- md device css  */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* nav  */
+  .navbar-nav {
+    width: 100%;
+    height: 45vh;
+    background: #203239;
+    text-align: center;
+    border-radius: 3px;
+  }
+
+  .nav-item {
+    display: block;
+    margin: 12px 0;
+    line-height: 30px;
+    color: #eeeddecb;
+  }
+  .nav-item:hover {
+    background: #eeeddecb;
+  }
+  .navbar .nav-item .nav-link {
+    font-size: 22px;
+    margin: 0 auto;
+    color: #eeeddecb;
+    padding: 15px 0;
+  }
+  .navbar .nav-item:hover .nav-link {
+    color: #203239;
+    font-weight: 600;
+  }
+  /* nav  */
+  .navbar-toggler {
+    border: 0;
+  }
+  .navbar-toggler:focus {
+    box-shadow: none;
+    border: 0;
+  }
+  #banner .text h2 {
+    font-size: 35px;
+    line-height: 145%;
+    width: auto;
+    text-align: center;
+    padding-top: 240px;
+  }
+
+  #banner .text p {
+    font-size: 18px;
+    line-height: 30px;
+    width: auto;
+    margin: 20px 0 150px;
+    text-align: center;
+    padding: 0 50px;
+  }
+  #banner .search input {
+    display: none;
+  }
+  #banner .search i {
+    display: none;
+  }
+  #banner .search .btn {
+    display: none;
+  }
+  .banner-img img {
+    bottom: 240px;
+    opacity: 0.1;
+    display: block;
+  }
+  #banner .counter .text h2 {
+    font-size: 40px;
+  }
+  #banner .counter .text p {
+    font-size: 16px;
+    line-height: 35px;
+    width: auto;
+    padding-bottom: 35px;
+  }
+  #property {
+    padding: 50px 0px;
+  }
+
+  #property .title h2 {
+    font-size: 21px;
+    line-height: 144%;
+    width: auto;
+    text-align: center;
+    padding: 20px 0 35px;
+  }
+  #property .property-list {
+    margin-top: 0;
+  }
+  #property .property-list .card-1 {
+    width: auto;
+    height: 205px;
+    margin-bottom: 35px;
+  }
+  #property .property-list .card-1 h5 {
+    left: 620px;
+  }
+  #property .property-list .card-1 .extra-mm {
+    margin-bottom: 17px;
+  }
+  #property .property-list .card-1 p {
+    font-size: 16px;
+    line-height: 27px;
+    margin: 5px 0 20px;
+    width: auto;
+  }
+  #property {
+    padding-bottom: 10px;
+  }
+  .title {
+    margin: 45px 0;
+  }
+  .title h2 {
+    font-size: 32px;
+    line-height: 80%;
+  }
+  .title h3 {
+    font-size: 17px;
+    line-height: 23px;
+    margin-bottom: 13px;
+  }
+  .positon-img {
+    display: none;
+  }
+  #Residen {
+    height: 360px;
+  }
+  #Residen .text h2 {
+    font-size: 21px;
+    line-height: 150%;
+    width: auto;
+    margin-top: -40px;
+  }
+  #Residen .text p {
+    font-size: 16px;
+    line-height: 28px;
+    margin: 0px 0 30px;
+  }
+  #Residen .text .btn-3 a {
+    font-size: 16px;
+    line-height: 20px;
+    padding: 11px 30px;
+    border-radius: 10px;
+    margin-right: 15px;
+  }
+
+  #R-Berbagai .cards .r-card {
+    padding-bottom: 35px;
+  }
+  #R-Berbagai .cards .r-card img {
+    width: 100%;
+  }
+  #R-Berbagai .cards .r-card h2 {
+    font-size: 21px;
+    line-height: 150%;
+    margin: 13px 0 5px;
+    text-align: center;
+  }
+  #R-Berbagai .cards .r-card p {
+    font-size: 16px;
+    line-height: 28px;
+    color: #203239;
+    width: auto;
+    text-align: center;
+    padding: 0;
+  }
+  .center-card {
+    text-align: center;
+  }
+  #kami {
+    padding: 25px;
+  }
+  #kami .contact {
+    width: 100%;
+  }
+  #kami .contact h2 {
+    font-size: 28px;
+
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  #kami .contact .card-3 {
+    padding: 20px;
+    border: 1px solid rgba(255, 117, 39, 0.5);
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 15px;
+    margin-right: 0;
+  }
+  #kami .contact .i-text a {
+    font-size: 18px;
+  }
+  #kami .contact .card-3 .btn {
+    font-size: 16px;
+    padding: 8px 40px;
+  }
+  #kami .contact .i-text h3 {
+    margin: 0;
+  }
+  #kami .contact .i-text {
+    margin-bottom: 20px;
+  }
+  #kami .contact h2 {
+    margin: 40px 40px;
+  }
+  #kami .main {
+    display: none;
+  }
+  #footer {
+    background: #203239;
+    padding: 0 15px;
+  }
+  #footer .foot img {
+    padding: 8px 0;
+  }
+  #footer .foot i {
+    font-size: 16px;
+    margin-left: 25px;
+  }
+  /* end  */
+}
+/*------------------------------------------------ lg device css  */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .navbar-toggler {
+    border: 0;
+  }
+  .navbar-toggler:focus {
+    box-shadow: none;
+    border: 0;
+  }
+  #banner .text h2 {
+    font-size: 45px;
+    line-height: 145%;
+    width: auto;
+    text-align: center;
+    padding-top: 280px;
+  }
+  #banner .text p {
+    font-size: 20px;
+    line-height: 37px;
+    width: auto;
+    margin: 20px 0 120px;
+    text-align: center;
+    padding: 0 134px;
+  }
+  #banner .search {
+    position: relative;
+    margin-bottom: 56px;
+    width: 70%;
+    margin: 0 auto;
+  }
+  .banner-img img {
+    bottom: 95px;
+    opacity: 0.2;
+    display: block;
+  }
+
+  #banner .counter {
+    display: none;
+  }
+
+  #property {
+    padding: 50px 0px;
+  }
+
+  #property .title h2 {
+    font-size: 25px;
+    line-height: 144%;
+    width: 365px;
+    /* text-align: center; */
+    padding: 20px 0 35px;
+  }
+  #property .property-list {
+    margin-top: 0;
+  }
+  #property .property-list .card-1 {
+    /* width: auto; */
+    /* height: 365px; */
+    margin-bottom: 35px;
+  }
+  #property .property-list .card-1 h5 {
+    left: 265px;
+  }
+
+  #property .property-list .card-1 p {
+    font-size: 16px;
+    line-height: 27px;
+    margin: 5px 0 20px;
+    width: auto;
+  }
+  #property {
+    padding-bottom: 10px;
+  }
+  .title {
+    margin: 45px 0;
+  }
+  .title h2 {
+    font-size: 33px;
+    line-height: 80%;
+  }
+  .title h3 {
+    font-size: 16px;
+    line-height: 23px;
+    margin-bottom: 13px;
+  }
+  .positon-img {
+    display: none;
+  }
+  #Residen {
+    height: 430px;
+  }
+  #Residen .text h2 {
+    font-size: 21px;
+    line-height: 150%;
+    width: auto;
+    margin-top: -40px;
+  }
+  #Residen .text p {
+    font-size: 16px;
+    line-height: 28px;
+    margin: 0px 0 30px;
+  }
+  #Residen .text .btn-3 a {
+    font-size: 16px;
+    line-height: 20px;
+    padding: 11px 30px;
+    border-radius: 10px;
+    margin-right: 0px;
+  }
+
+  #R-Berbagai .cards .r-card {
+    padding-bottom: 35px;
+  }
+  #R-Berbagai .cards .r-card img {
+    width: 100%;
+  }
+  #R-Berbagai .cards .r-card h2 {
+    font-size: 21px;
+    line-height: 150%;
+    margin: 13px 0 5px;
+    text-align: center;
+  }
+  #R-Berbagai .cards .r-card p {
+    font-size: 16px;
+    line-height: 28px;
+    color: #203239;
+    width: auto;
+    text-align: center;
+    padding: 0;
+  }
+  .center-card {
+    text-align: center;
+  }
+  #kami {
+    padding: 25px;
+  }
+  #kami .contact {
+    width: 100%;
+  }
+  #kami .contact h2 {
+    font-size: 28px;
+    margin-bottom: 40px;
+  }
+  #kami .contact .e-card {
+    margin-left: 50px;
+  }
+  #kami .contact .i-text a {
+    font-size: 18px;
+  }
+  #kami .contact .card-3 .btn {
+    font-size: 16px;
+    padding: 8px 40px;
+  }
+  #kami .contact .i-text h3 {
+    margin: 0;
+  }
+  #kami .contact .i-text {
+    margin-bottom: 20px;
+  }
+  #kami .contact h2 {
+    margin: 40px 40px;
+  }
+  #kami .main {
+    /* display: none; */
+  }
+  #footer {
+    background: #203239;
+    padding: 0 15px;
+  }
+  #footer .foot img {
+    padding: 8px 0;
+  }
+  #footer .foot i {
+    font-size: 16px;
+    margin-left: 25px;
+  }
+  /* end  */
+}
